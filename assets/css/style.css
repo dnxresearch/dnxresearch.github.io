@@ -243,11 +243,11 @@ img {
     opacity: 0.6;
 }
 
-.post .newsletter {
+ .newsletter {
     margin-top: 55px;
 }
 
-.post .newsletter input {
+.newsletter input {
     width: 100%;
     border: none;
     background: #fcfcfc;
@@ -256,7 +256,7 @@ img {
     margin-bottom: 10px;
 }
 
-.post .newsletter .button {
+.newsletter .button {
     padding: 5px;
     cursor: pointer;
 }
