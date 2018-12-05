@@ -1,0 +1,39 @@
+---
+layout: default
+title: DNX News
+permalink: /news
+active: news
+---
+
+<div class="mast mast-2 row">
+</div>
+
+<div class="index news-page">
+<h1>Product News & Investor Updates</h1>
+<br>
+    <div class="row">
+        <div class="col-md-8">
+            {% for post in site.posts %}
+                <a href="{{ post.url }}" class="item-post col-md-12">
+                    <p class="title">{{ post.title }}</h3>
+                    <p><span class="date">{{ post.date | date: '%B %d, %Y' }} &#8212; {{ post.content | strip_html | truncatewords: 75 }}</p>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="col-md-4 products">
+            <p><strong>Current Products</strong></p>
+            <div class="item-product">
+                <img src="/assets/img/cbd_energy_logo.png">
+                <p>CBD+Energy products combine the effects of anhydrous caffeine, l-theanine, and hemp-derived cannabidiol to help produce a more 'natural' energy effect without anxiety, pain, jitters, or crash.</p>
+                <p>Visit Product Site &#8212;  <a href="https://cbdplusenergy.com">cbdplusenergy.com</a></p>
+            </div>
+            <hr>
+            <p class="item-header"><strong>Contact</strong></p>
+            <div class="item-block">
+                <p>DNX Research Corporation, Ozark Mountains. </p>
+                <p>Phone: +1 (479) 437-9617</p>
+                <p>Email: corporate@dnxresearch.com</p>
+            </div>
+        </div>
+    </div>
+</div>

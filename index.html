@@ -1,0 +1,51 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Home
+active: home
+---
+
+<div class="mast row">
+    <span class="desc">Looking to the future for our inspiration. </span>
+</div>
+
+<div class="index row">
+    <div class="col-md-7">
+        <p><strong>Product news and investor updates</strong></p>
+          {% for post in site.posts %}
+          <a href="{{ post.url }}" class="item-post col-md-12">
+                <p class="title">{{ post.title }}</h3>
+                <p><span class="date">{{ post.date | date: '%B %d, %Y' }} &#8212; {{ post.content | strip_html | truncatewords: 25 }}</p>
+            </a>
+        {% endfor %}
+        <a class="btn float-right" href="/news">Read More</a>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-4 products">
+        <p><strong>Current Products</strong></p>
+        <div class="item-product">
+            <img src="/assets/img/cbd_energy_logo.png">
+            <p>CBD+Energy products combine the effects of anhydrous caffeine, l-theanine, and hemp-derived cannabidiol to help produce a more 'natural' energy effect without anxiety, pain, jitters, or crash.</p>
+            <p>Visit Product Site &#8212;  <a href="https://cbdplusenergy.com">cbdplusenergy.com</a></p>
+         </div>
+        <hr>
+        <p class="item-header"><strong>Contact</strong></p>
+        <div class="item-block">
+            <p>DNX Research Corporation, Ozark Mountains. </p>
+            <p>Phone: +1 (479) 437-9617</p>
+            <p>Email: corporate@dnxresearch.com</p>
+        </div>
+    </div>
+</div>
+
+<div class="row item-banner align-items-end">
+    <div class="col-md-4 banner-logo">
+        <img src="/assets/img/cbd_energy_logo.png">
+    </div>
+    <div class="col-md-8 banner-content">
+        <h4>"CBD+Energy helps me start my day better, happier, and more productive than ever before."</h4>
+        <p>CBD+Energy is an affordable new product that givies you that burst of energy that we all need without the anxiety, jitters, or crashing that other products have.<br> <a href="https://cbdplusenergy.com/" class="btn yellow">Try CBD+Energy today!</a></p>
+    </div>
+</div>

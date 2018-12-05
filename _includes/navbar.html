@@ -1,0 +1,10 @@
+<nav class="row align-items-end">
+    <div class="col-md-3 brand-logo mp0">
+        <a href="/"><img src="/assets/img/dnx_logo.png"></a>
+    </div>
+    <div class="col-md-9 menu-items">
+        <a href="/" {% if page.active == 'home' %} class="active" {% endif %}>Home</a>
+        <a href="/about" {% if page.active == 'about' %} class="active" {% endif %}>About</a>
+        <a href="/news" {% if page.active == 'news' %} class="active" {% endif %}>News</a>
+    </div>
+</nav>
