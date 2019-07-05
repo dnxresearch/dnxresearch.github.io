@@ -1,0 +1,48 @@
+<div class="notice">
+    <div class="title">
+        <div class="notice-text">RECENT</div>
+        <div class="underline"></div>
+    </div>
+    <div class="underLine"></div>
+    {% for post in site.posts limit:1 %}
+    <p><strong>{{post.title}}</strong>
+        <blockquote>{{ post.excerpt }}</blockquote>
+            <a href="{{post.permalink}}">[ Read More ]</a>
+<div style="float:right"><a href="/news">[ More News ]</a></div>
+    </p>
+        {% endfor %}
+</div>
+<div class="notice">
+    <div class="title">
+        <div class="notice-text">SUBSCRIBE</div>
+        <div class="underline"></div>
+    </div>
+    <div class="underLine"></div>
+    <p>Subscribe with your email to receive important updates.</p>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form
+                            action="https://macleodsawyer.us7.list-manage.com/subscribe/post?u=9ff67b3252cf627cdce2a8c42&amp;id=352a62761c"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                            target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                
+                                <div class="mc-field-group" style="display: inline-block;">
+                                    <input type="email" value="" placeholder="stanford@ovshinsky.com" name="EMAIL"
+                                        class="required email" id="mce-EMAIL">
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                        name="b_9ff67b3252cf627cdce2a8c42_352a62761c" tabindex="-1" value=""></div>
+                                <div class="clear submit-b" style="display: inline-block;vertical-align: bottom;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                        class="button"></div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                
+                    <!--End mc_embed_signup-->
+</div>

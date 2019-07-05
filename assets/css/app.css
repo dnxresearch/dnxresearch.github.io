@@ -1,0 +1,386 @@
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+.menu {
+    height: auto;
+    display: block;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+header {
+    min-height: 100%;
+    display: block;
+}
+
+#bgVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+  
+
+
+  nav {
+      padding: 10px 40px !important;
+  }
+
+ .logo {
+    filter: invert(100%);
+    opacity: 0.5;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .logo:hover {
+      opacity: 1;
+  }
+
+  body {
+      background: #000;
+  }
+
+  .link {
+    display: block;
+    padding: 50px;
+    border: 1px solid;
+    font-size: 17.5px;
+    font-weight: 700;
+    background: rgba(0,0,0,0.5);
+    font-family: 'Syncopate', sans-serif;
+    color: #fff !important;
+  }
+
+  .link:hover {
+      font-style: italic;
+      background: #fff;
+      color: #000 !important;
+      border-color: gold;
+      text-decoration: none;
+  }
+
+.link ion-icon {
+    font-size: 60px;
+    float: right;
+    top: -18px;
+    position: relative;
+}
+
+.menuToggle {
+    position: absolute;
+    width: 100%;
+    z-index: 99999999;
+    background: rgba(0,0,0,0.95);
+}
+
+
+
+.menuToggle .link {
+}
+
+  .subLine {
+    font-family: 'Syncopate', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .notice {
+    background: rgba(0,0,0,0.7);
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #fff;
+    position: relative;
+    border: 1px solid #fff;
+    border-color: gold;
+    width: 99%;
+}
+
+.notice .title {
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    font-size: 20px;
+    left: 9px;
+    font-weight: 700;    
+    
+}
+
+.notice .title .notice-text {
+    z-index: 2;
+    position: relative;
+    color: gold;
+}
+
+.notice .title .underline {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin-top: -16px;
+    background: #000;
+    z-index: 1;
+}
+
+.notice p {
+    margin-bottom: .4rem;
+}
+
+.notice a {
+    color: gold;
+}
+
+.notice a:hover {
+
+}
+
+.menu hr {
+    border: 1px solid transparent;
+}
+
+footer {
+    padding: 20px 50px;
+    color: #ccc;
+    background: #000;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+footer p:last-child {
+    margin: 0;
+}
+
+footer img {
+    max-width: 100px;
+    filter: invert(100%);
+    margin-bottom: 5px;
+}
+
+article {
+    min-height: 60vh;
+}
+
+.header2 .menu .logo {
+    max-width: 500px;
+}
+
+.header2 .menu {
+    min-height: auto;
+}
+
+.header2 .menu .link:hover{
+    background: #fff;
+    color: #000 !important;
+}
+
+.post-top {
+    text-align: left;
+    color: #fff;
+    padding: 40px;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+}
+
+.post-top h1 {
+    font-size: 4.5rem;
+}
+
+.post-content {
+    padding: 50px;
+        padding-left: 50px;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid gold;
+    width: 100%;
+    text-align: right;
+}
+
+.post-content-block {
+    max-width: 900px;
+    text-align: left;
+    display: inline-block;
+}
+
+.post-content-block p {
+    font-size: 18px;
+}
+
+.bgImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('../media/ant-rozetsky-SLIFI67jv5k-unsplash.jpg');
+    background-size: cover !important;
+}
+
+.post .sidebar .notice {
+    padding-left: 25px;
+}
+.post .sidebar .notice .title .notice-text {
+    background: rgba(0,0,0,0.9);
+    border: 1px solid gold;
+    margin-top: -13px;
+    padding: 5px 10px;
+}
+
+.post .sidebar .notice input {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 5px;
+border-bottom: 1px solid #ccc;
+}
+
+.post .sidebar .submit-b input {
+    padding: 4px 9px;
+    display: inline-block;
+    vertical-align: bottom;
+    box-shadow: none;
+    background: gold;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+
+}
+
+
+.post article {
+    padding-bottom: 2.5rem;   
+}
+
+.post article a {
+    color:darkblue;
+    font-weight: bold;
+}
+
+.post article img {
+    width: 100%;
+}
+
+blockquote {
+    border-left: 1px solid #fff;  
+    padding-left: 15px;
+}
+
+
+.news-item {
+    padding: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.news-item .meta-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 40px 80px;
+}
+
+.news-item .overlay {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.87) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);   
+     width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.news-item a {
+    color: #fff;
+}
+
+.news-item:hover {
+    color: #fff;
+}
+
+.news-item:hover h2, .news-item:hover span {
+    color: gold;
+}
+
+.news-item-parent {
+    margin: 0 !important;
+    padding: 0;
+    border: 1px solid #fff;
+    padding-top: 65vh;
+    background: #4F3939;
+    background-size: cover !important;
+
+}
+
+.news-item-parent:hover {
+    border-color: gold;
+}
+
+  @media only screen and (max-width: 900px) {
+    header {
+     /* background: black no-repeat center center scroll; */
+    }
+    header video {
+     /* display: none; */
+    }
+
+
+    .header2 .menu .logo {
+        max-width: 100% !Important;
+    }
+
+    .post-top h1 {
+        font-size: 2.5rem;
+    }
+
+    .link {
+        width: 99.%;
+        padding: 35px 25px;
+    }
+
+    .menuToggle {
+        padding-bottom: 15px;
+        width: 94.6%;
+        border-bottom: 14px solid gold;
+    }
+
+    .news-item .meta-content {
+        padding: 25px 40px;
+    }
+
+    .post-content {
+        padding: 25px;
+    }
+  }
+  

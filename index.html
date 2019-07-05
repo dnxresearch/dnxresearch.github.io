@@ -1,53 +1,31 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: Inspiration From The Future
 layout: default
-title: Home
-active: home
 ---
 
-<div class="mast row">
-    <span class="desc">Looking to the future for our inspiration. </span>
-</div>
-
-<div class="index row">
-    <div class="col-md-7">
-        <p><strong>Product news and investor updates</strong></p>
-          {% for post in site.posts %}
-          <a href="{{ post.url }}" class="item-post col-md-12">
-                <p class="title">{{ post.title }}</h3>
-                <p><span class="date">{{ post.date | date: '%B %d, %Y' }} &#8212; {{ post.content | strip_html | truncatewords: 25 }}</p>
-            </a>
-        {% endfor %}
-        <a class="btn float-right" href="/news">Read More</a>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-4 products newsletter" style="font-size: 14px;margin-top:0;">
-        <p>Be the first to receive the latest DNX Research news, events, and product updates. </p>
-            <p><!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://macleodsawyer.us7.list-manage.com/subscribe/post?u=9ff67b3252cf627cdce2a8c42&amp;id=352a62761c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-<div class="mc-field-group">
-	<input type="email" value="" placeholder="Enter your email adress" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ff67b3252cf627cdce2a8c42_352a62761c" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-	    </div>
-    <hr>
-        <p class="item-header"><strong>Contact</strong></p>
-        <div class="item-block">
-            <p>DNX Research Corporation, Ozark Mountains. </p>
-            <p>Phone: +1 (479) 437-9617</p>
-            <p>Email: corporate@dnxresearch.com</p>
+<header class="menu">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="bgVideo">
+                <source src="assets/media/FanVid.mp4" type="video/mp4">
+        </video>
+        <div class="row">
+            <div class="col-md-7">
+                <Img class="logo" src="assets/media/base_2_free.png">
+                <div class="notice">
+                    <div class="title">
+                        <div class="notice-text">Announcements</div> <div class="underline"></div></div>
+                    <div class="underLine"></div>
+                    {% for post in site.posts limit:1 %}
+                    <p><strong>{{post.title}}</strong>
+                        <blockquote>{{ post.excerpt }}</blockquote>
+                    </p>
+                    <a href="{{post.url}}">[ Read More ]</a>
+                    <div style="float:right"><a href="/news">[ More News ]</a></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col">
+                {% include menu.html %}
+            </div>
         </div>
     </div>
-</div>
+</header>

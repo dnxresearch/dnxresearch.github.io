@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<body class="page">
+    <div class="bgImage" style="">
+    </div>
+            {% include header.html %}
+
+
+    <div class="row">
+        <div class="post-top text-center">
+            <h1>{{page.title}}{{post.title}}</h1>
+        </div>
+        {% if page.customContent %}
+            {{ content }}
+        {% else %}
+        <article class="col-md-7" style="margin: 0 auto">
+            <div class="post-content text-center" style="margin-left: auto;">
+                <div class="post-content-block">
+                    {{ content }}
+                </div>
+            </div>
+        </article>
+        {% endif %}
+    </div>
