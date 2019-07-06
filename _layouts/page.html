@@ -3,7 +3,7 @@ layout: default
 ---
 
 <body class="page">
-    <div class="bgImage" style="">
+    <div class="bgImage" {% if page.img %} style="background: url('{{page.img}}');" {% endif %}>
     </div>
             {% include header.html %}
 
