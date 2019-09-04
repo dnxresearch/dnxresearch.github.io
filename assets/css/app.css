@@ -8,7 +8,6 @@ body {
     height: auto;
     display: block;
     position: relative;
-    min-height: 100vh;
 }
 
 
@@ -37,10 +36,33 @@ header {
     opacity: 0.5;
     width: 100%;
     margin-bottom: 10px;
+
+  }
+
+  .logoIndex {
+    max-width: 90%;
+    margin: 45px auto;
+    display: block;
+
   }
 
   .logo:hover {
       opacity: 1;
+  }
+
+  .content .statement {
+      padding: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    background:gold;
+    margin-bottom: 40px;
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  .content .statement .beyond {
+      color: darkblue;
   }
 
   body {
@@ -105,6 +127,7 @@ header {
         margin-top: 0px;
     margin-top: 45px;
     margin-bottom: 45px;
+        margin-bottom: 90px;
     color: #fff;
     position: relative;
     border: 1px solid #fff;
@@ -131,9 +154,9 @@ header {
 
 .notice .title .underline {
     width: 100%;
-    height: 2px;
+    height: 5px;
     position: absolute;
-    margin-top: -16px;
+    margin-top: -17px;
     background: #000;
     z-index: 1;
 }
@@ -183,6 +206,8 @@ article {
 
 .header2 .menu .logo {
     max-width: 500px;
+    margin: 10px;
+    margin-left: 0;
 }
 
 .header2 .menu {
@@ -241,6 +266,7 @@ article {
 
 .post .sidebar .notice {
     padding-left: 25px;
+    margin-bottom: 45px;
 }
 .post .sidebar .notice .title .notice-text {
     background: rgba(0,0,0,0.9);
@@ -337,7 +363,7 @@ blockquote {
     margin: 0 !important;
     padding: 0;
     border: 1px solid #fff;
-    padding-top: 65vh;
+    padding-top: 35vh;
     background: #4F3939;
     background-size: cover !important;
 
@@ -355,9 +381,15 @@ blockquote {
      /* display: none; */
     }
 
+    .logoIndex {
+        margin: 0;
+        max-width: 100%;
+    }
 
     .header2 .menu .logo {
         max-width: 100% !Important;
+        width: 100%;
+        margin: 0;
     }
 
     .post-top h1 {
@@ -367,6 +399,15 @@ blockquote {
     .link {
         width: 99.%;
         padding: 35px 25px;
+    }
+
+    .notice {
+        margin-bottom: 45px;
+    }
+
+    .menuIndex {
+        margin-bottom: 45px;
+
     }
 
     .menuToggle {
