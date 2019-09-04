@@ -8,14 +8,14 @@ customContent: "true"
 <div class="row" style="max-width: 1900px;margin: 0 auto; width: 100%;">
 {% for post in site.posts %}
 <div class="col-md-4 news-item-parent" {% if post.img %} style="background: url({{post.img}})" {%endif %}>
-    <a href="{{post.url}}" class="news-item" >
-        <div class="overlay"></div>
-        <div class="meta-content">
+    <div class="overlay"></div>
+    <a href="{{post.url}}" class="news-item">
+        <span class="meta-content">
         <h2><strong>{{post.title}}</strong></h2>
         <p>{{ post.excerpt }}</p>
             <span>[ Read More ]</span>
-            <div style="float:right; opacity: 0.6;">[ {{post.date }} ]</div>
-        </div>
+            <span style="float:right; opacity: 0.6;">[ {{post.date }} ]</span>
+        </span>
     </a>
     </div>
 {% endfor %}
