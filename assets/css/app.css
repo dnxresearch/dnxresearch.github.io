@@ -155,7 +155,7 @@ header {
 .notice .title .underline {
     height: 7px;
     position: absolute;
-    margin-top: -18px;
+    margin-top: -20px;
     background:#000;
     z-index: 1;
     width: calc(100% - 5px);
