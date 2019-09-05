@@ -426,5 +426,9 @@ blockquote {
     .post-content {
         padding: 25px;
     }
+
+    .notice .title .underline {
+        margin-top: -14px;
+    }
   }
   
