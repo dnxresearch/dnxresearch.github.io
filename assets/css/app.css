@@ -323,7 +323,6 @@ blockquote {
 
 .news-item {
     color: #fff;
-    padding-bottom: 40px;
     width: 100%;
     display: inline-block;
     padding-top: 300px;
@@ -331,14 +330,14 @@ blockquote {
     width: 100%;
     display: inline-block;
     position: relative;
-
 }
 
 .news-item .meta-content {
     bottom: 0;
     width: 100%;
     left: 0;
-    padding: 40px 80px;
+    padding: 40px 40px;
+    display: inline-block;
 }
 
 .news-item-parent .overlay {
@@ -356,6 +355,7 @@ blockquote {
 
 .news-item:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .news-item:hover h2, .news-item:hover span {
