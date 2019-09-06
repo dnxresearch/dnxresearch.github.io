@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
     position: relative;
+    background-image: radial-gradient(ellipse farthest-side, rgba(0, 111, 255, 0.2), transparent);
 }
 
 .menu {
