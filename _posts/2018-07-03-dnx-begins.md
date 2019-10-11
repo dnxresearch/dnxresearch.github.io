@@ -1,8 +1,9 @@
 ---
-title: What is DNX Research? 
 layout: post
-author: mds
+title: What is DNX Research?
 img: /assets/media/posts/nasa-Q1p7bh3SHj8-unsplash.jpg
+date: 2018-07-03T20:56:00.000Z
+author: T. Macleod Sawyer
 ---
 
 After several years of developing products for myself I have decided to start this new venture. 
