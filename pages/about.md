@@ -4,12 +4,10 @@ title: About
 date: 2019-10-11T21:02:34.136Z
 permalink: /about
 ---
-We are developing new technologies that enable humans to accomplish extraordinary things on earth, and beyond. 
+**We develop new technologies that enable humans to accomplish extraordinary things on earth, and beyond.**
 
-Our primary research is focused on designing, testing, and developing new forms of agricultural growth systems to grow and curate faster growing, better tasting, and healthier foods using our electromagnetic additive nutrient delivery system. We prefer to think of it as "3D Printing" for agriculture. 
+Our primary research is focused on designing, testing, and developing new forms of agricultural growth systems for optimal plant growth with better tasting and healthier products primarily using our experimental electromgnetic nutrient delivery system (patent-pending).
 
-We develop products in several different industries and uses, our motto is "Innovation From The Future", because we look to the future and in that future we see a society that is better than the one that we have. 
+Founded, funded, and lead by our CEO and Director, Macleod Dent-Sawyer in 2017, we have worked steadfast to think bigger and better than what should be possible. The status quo is never our objective.
 
-Founded, funded, and lead by our CEO and Director, T. Macleod Sawyer in late-2017, we have worked steadfast to create things that are better than what was and is currently possible. 
-
-DNX Research is based out of the Ozark Mountains with the mission to research, develop, and manufacture products and services that benefit as many people as possible. We are privately funded, but always open to investment opportunities, and we have a <a href="/shop">shop</a> that helps keep our operations alive.
+DNX Research is based out of the Ozark Mountains with the mission to research, develop, and manufacture products and services that benefit as many people as possible. We are privately funded, but always open to investment opportunities, please get in contact with <a href="mailto:team@dnxresearch.com">team@dnxresearch.com</a> for more information. 
