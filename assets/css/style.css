@@ -179,7 +179,6 @@ footer p {
 }
 
 footer img {
-    filter: invert(100%);
     max-width: 150px;
     padding-bottom: 10px;
 }
