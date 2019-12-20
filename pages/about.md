@@ -8,6 +8,6 @@ permalink: /about
 
 Our primary research is focused on designing, testing, and developing new forms of agricultural growth systems for optimal plant growth with better tasting and healthier products primarily using our experimental electromgnetic nutrient delivery system (patent-pending).
 
-Founded, funded, and lead by our CEO and Director, Macleod Dent-Sawyer in 2017, we have worked steadfast to think bigger and better than what should be possible. The status quo is never our objective.
+Founded, funded, and lead by our CEO, t. Macleod Sawyer in 2017, we have worked steadfast to think bigger and better than what should be possible. The status quo is never our objective.
 
-DNX Research is based out of the Ozark Mountains with the mission to research, develop, and manufacture products and services that benefit as many people as possible. We are privately funded, but always open to investment opportunities, please get in contact with <a href="mailto:team@dnxresearch.com">team@dnxresearch.com</a> for more information. 
+DNX Research is based out of the Ozark Mountains with the mission to research, develop, and manufacture products and services that benefit as many people as possible. We are privately funded, but always open to investment opportunities, please get in contact with <a href="mailto:team@dnxresearch.com">team@dnxresearch.com</a> for more information.
